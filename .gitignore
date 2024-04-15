@@ -165,3 +165,4 @@ forest.jpg
 *.csv
 *.pkl
 *.zip
+.conda
