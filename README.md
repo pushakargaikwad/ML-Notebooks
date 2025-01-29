@@ -15,6 +15,21 @@ A collection of machine learning notebooks focused on practical implementation u
 - 📓 Interactive Jupyter Notebooks
 - 🔄 Quick Reference Examples
 
+
+## Disclaimer
+
+[![Status](https://img.shields.io/badge/Status-Active_Development-success)](https://github.com/pushakargaikwad/ml-notebooks)
+[![Purpose](https://img.shields.io/badge/Purpose-Learning_&_Implementation-blue)](https://github.com/pushakargaikwad/ml-notebooks)
+[![Code](https://img.shields.io/badge/Code-Updated_&_Working-green)](https://github.com/pushakargaikwad/ml-notebooks)
+
+While some of the code and techniques referenced in this repository may be from materials that are a year or two old, the purpose of this repository is to:
+- Consolidate learning materials in one accessible place
+- Ensure all code is running with current library versions
+- Update implementations as needed
+- Demonstrate practical, real-world applications
+- Serve as a foundation for more advanced implementations
+
+The focus is on practical implementation and getting things working in real scenarios, rather than just theoretical concepts.
 ## Notebooks
 
 - `classifier.ipynb`: Image classification implementation using fastai (based on fastbook course)
