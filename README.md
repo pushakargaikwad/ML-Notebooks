@@ -15,6 +15,37 @@ A collection of machine learning notebooks focused on practical implementation u
 - 📓 Interactive Jupyter Notebooks
 - 🔄 Quick Reference Examples
 
+## Project Structure
+
+```
+notebooks/
+├── fastai_course/
+│   ├── classifier.ipynb      # Image classification using fastai
+│   └── tabular.ipynb        # Tabular data prediction examples
+└── custom/
+    └── llm_vision.ipynb     # LangChain with vision-based LLMs
+```
+
+```
+src/
+├── utils/
+│   ├── search_images.py     # Image search utilities
+│   └── exponential_backoff.py  # API retry logic
+└── __init__.py
+```
+
+```
+data/
+├── models/                  # Saved model files
+├── raw/                    # Raw datasets
+└── processed/              # Processed datasets
+```
+
+## Notebooks
+
+- `notebooks/fastai_course/classifier.ipynb`: Image classification implementation using fastai (based on fastbook course)
+- `notebooks/fastai_course/tabular.ipynb`: Tabular data prediction examples using fastai
+- `notebooks/custom/llm_vision.ipynb`: Original implementation integrating LangChain with vision-based LLMs
 
 ## Disclaimer
 
@@ -30,12 +61,8 @@ While some of the code and techniques referenced in this repository may be from 
 - Serve as a foundation for more advanced implementations
 
 The focus is on practical implementation and getting things working in real scenarios, rather than just theoretical concepts.
-## Notebooks
-
-- `classifier.ipynb`: Image classification implementation using fastai (based on fastbook course)
-- `llm_vision.ipynb`: Original implementation integrating LangChain with vision-based LLMs for advanced image understanding and processing
-
 ## Prerequisites
+
 
 Before you begin, ensure you have the following installed:
 - Python 3.11.5 or higher
