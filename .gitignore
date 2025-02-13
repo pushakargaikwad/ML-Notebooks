@@ -160,6 +160,7 @@ cython_debug/
 #.idea/
 
 bird_or_not/
+jedi_or_sith/
 bird.jpg
 forest.jpg
 *.csv
